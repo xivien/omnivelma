@@ -1,8 +1,0 @@
-prefix=/home/xivien/velma_sim/src/omnivelma/install
-
-Name: pseudovelma
-Description: Description of pseudovelma
-Version: 1.0.0
-Cflags: 
-Libs: -L/home/xivien/velma_sim/src/omnivelma/install/lib 
-Requires: gazebo_ros roscpp omnivelma_msgs geometry_msgs nav_msgs

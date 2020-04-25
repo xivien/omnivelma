@@ -1,8 +1,0 @@
-prefix=/home/xivien/velma_sim/src/omnivelma/devel
-
-Name: velmaverse
-Description: Description of velmaverse
-Version: 1.0.0
-Cflags: 
-Libs: -L/home/xivien/velma_sim/src/omnivelma/devel/lib 
-Requires: 

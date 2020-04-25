@@ -1,8 +1,0 @@
-prefix=/home/xivien/velma_sim/src/omnivelma/install
-
-Name: transmutator
-Description: Description of transmutator
-Version: 1.0.0
-Cflags: 
-Libs: -L/home/xivien/velma_sim/src/omnivelma/install/lib 
-Requires: geometry_msgs roscpp omnivelma_msgs

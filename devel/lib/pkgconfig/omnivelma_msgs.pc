@@ -1,8 +1,0 @@
-prefix=/home/xivien/velma_sim/src/omnivelma/devel
-
-Name: omnivelma_msgs
-Description: Description of omnivelma_msgs
-Version: 1.0.0
-Cflags: -I/home/xivien/velma_sim/src/omnivelma/devel/include
-Libs: -L/home/xivien/velma_sim/src/omnivelma/devel/lib 
-Requires: std_msgs geometry_msgs
