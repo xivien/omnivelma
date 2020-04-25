@@ -1,0 +1,8 @@
+prefix=/home/xivien/velma_sim/src/omnivelma/install
+
+Name: widelnica
+Description: Description of widelnica
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/xivien/velma_sim/src/omnivelma/install/lib 
+Requires: roscpp omnivelma_msgs

@@ -1,0 +1,8 @@
+prefix=/home/xivien/velma_sim/src/omnivelma/install
+
+Name: omnivelma
+Description: Description of omnivelma
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/xivien/velma_sim/src/omnivelma/install/lib 
+Requires: geometry_msgs gazebo_ros roscpp omnivelma_msgs nav_msgs std_msgs tf2_ros tf
