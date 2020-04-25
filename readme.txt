@@ -1,4 +1,5 @@
-Poprawienie odwolywania sie do gazebo dla ROS melodic i gazebo 9
+Poprawienie odwoływania się do gazebo dla ROS melodic i gazebo 9
+Usunięcie publikacji TF odom->base_footprint przez gazebo.
 
 Paczka zawierająca zmodyfikowany model bazy jezdej velmy nazwany "omnivelma".
 Pierwotnym autorem jest Radosława Świątkiewicza - https://github.com/Antyradek/omnivelma
