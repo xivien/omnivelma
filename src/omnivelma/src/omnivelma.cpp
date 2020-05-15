@@ -246,8 +246,8 @@ private:
 		rosEnc.publish(encMsg);
 
 		//wyślij prędkość
-		const ignition::math::Vector3d linVel = model -> WorldLinearVel();
-		const ignition::math::Vector3d angVel = model -> WorldAngularVel();
+		const ignition::math::Vector3d linVel = model-> RelativeLinearVel();
+		const ignition::math::Vector3d angVel = model -> RelativeAngularVel();
 		geometry_msgs::TwistStamped twistMsg;
 		twistMsg.twist.linear.x = linVel.X();
 		twistMsg.twist.linear.y = linVel.Y();
