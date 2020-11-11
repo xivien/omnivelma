@@ -227,7 +227,7 @@ private:
 		poseMsg.pose.orientation.w = pose.Rot().W();
 		poseMsg.header.seq = counter;
 		poseMsg.header.stamp = ros::Time::now();
-		poseMsg.header.frame_id = MAP_TF;
+		poseMsg.header.frame_id = "map"; // - real pose
 		rosPose.publish(poseMsg);
 
 		//wyślij enkodery

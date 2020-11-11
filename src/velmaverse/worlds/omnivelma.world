@@ -39,6 +39,11 @@
 				<uri>model://omnivelma</uri>
 			</include>
 		</model>
+				<!-- <model name="pseudovelma">
+			<include>
+				<uri>model://pseudovelma</uri>
+			</include>
+		</model> -->
 	<!-- LABORATORIUM -->
 		<model name="Sala">
 			<include>
