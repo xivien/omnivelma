@@ -24,6 +24,29 @@
 			<direction>0 0 -1</direction>
 		</light>
 
+		<!-- <model name="box">
+			<pose>0 0 0.5 0 0 0</pose>
+			<link name="link">
+			<collision name="collision">
+				<geometry>
+				<box>
+					<size>1 1 1</size>
+				</box>
+				</geometry>
+			</collision>
+
+			<visual name="visual">
+				<geometry>
+				<box>
+					<size>1 1 1</size>
+				</box>
+				</geometry>
+			</visual>
+			</link>
+
+			<plugin name="push_animate" filename="libanimated_box.so"/>
+		</model>         -->
+
 
 		<!-- Podłoga -->
 		<model name="flooria">

@@ -2,19 +2,23 @@
 <sdf version="1.5">
   <world name="default">
     <include>
-      <uri>model://ground_plane</uri>
-    </include>
-    <include>
       <uri>model://sun</uri>
     </include>
     <include>
       <uri>model://willowgarage</uri>
     </include>
     <!-- Platforma dynamiczna  -->
-		<model name="omnivelma">
-			<include>
-				<uri>model://omnivelma</uri>
-			</include>
-		</model>
+	<model name="omnivelma">
+		<include>
+			<uri>model://omnivelma</uri>
+		</include>
+	</model>
+	<!-- Podłoga -->
+  <model name="flooria">
+    <include>
+    <uri>model://flooria</uri>
+    </include>
+
+  </model>    
   </world>
 </sdf>

@@ -122,5 +122,11 @@
 				<uri>model://omnivelma</uri>
 			</include>
 		</model>
+    	<!-- Podłoga -->
+	<!-- <model name="flooria">
+		<include>
+		<uri>model://flooria</uri>
+		</include>
+	</model> -->
   </world>
 </sdf>

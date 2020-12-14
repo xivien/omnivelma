@@ -161,11 +161,11 @@ public:
 		}
 		
 		//Autor: Piotr Walas
-		rosOdom = rosNode->advertise<nav_msgs::Odometry>("odom", 1);
-		if(!rosOdom)
-		{
-			ROS_FATAL_STREAM("Nie udało się stworzyć nadajnika " << "odom");
-		}
+		// rosOdom = rosNode->advertise<nav_msgs::Odometry>("odom", 1);
+		// if(!rosOdom)
+		// {
+		// 	ROS_FATAL_STREAM("Nie udało się stworzyć nadajnika " << "odom");
+		// }
 		
 		//powiadom o gotowości
 		ROS_DEBUG_STREAM("Omnivelma zainicjalizowana");
@@ -262,15 +262,15 @@ private:
 		
 		//Autor: Piotr Walas
 		//wyslij odometrie
-		nav_msgs::Odometry odometryMsg;
-		odometryMsg.header.seq = counter;
-		odometryMsg.header.stamp = ros::Time::now();
-		// new TODO
-		odometryMsg.child_frame_id = "base_footprint";
-		odometryMsg.header.frame_id = MAP_TF;
-		odometryMsg.pose.pose = poseMsg.pose;
-		odometryMsg.twist.twist = twistMsg.twist;
-		rosOdom.publish(odometryMsg);
+		// nav_msgs::Odometry odometryMsg;
+		// odometryMsg.header.seq = counter;
+		// odometryMsg.header.stamp = ros::Time::now();
+		// // new TODO
+		// odometryMsg.child_frame_id = "base_footprint";
+		// odometryMsg.header.frame_id = MAP_TF;
+		// odometryMsg.pose.pose = poseMsg.pose;
+		// odometryMsg.twist.twist = twistMsg.twist;
+		// rosOdom.publish(odometryMsg);
 		
 		//wyślij ramkę (zakładamy ramkę map w 0,0,0)
 		geometry_msgs::TransformStamped transMsg;
@@ -290,10 +290,10 @@ private:
 
 		tf::Quaternion rot = tf::createQuaternionFromRPY(0.0, 0.0, 0.0);
 
-		omnivelma_broadcaster.sendTransform(
-		tf::StampedTransform(
-			tf::Transform(rot, tf::Vector3(0.0, 0.0, 0.0)),
-			ros::Time::now(), "base_footprint", MODEL_NAME));
+		// omnivelma_broadcaster.sendTransform(
+		// tf::StampedTransform(
+		// 	tf::Transform(rot, tf::Vector3(0.0, 0.0, 0.0)),
+		// 	ros::Time::now(), "base_footprint", MODEL_NAME));
 
 
 		//kinect
@@ -460,7 +460,7 @@ private:
 	
 	//Nadajnik Odometrii
 	//Autor: Piotr Walas
-	ros::Publisher rosOdom;
+	// ros::Publisher rosOdom;
 
 	///Serwer ustawiania tarcia
 	ros::ServiceServer rosFri;
