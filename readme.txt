@@ -3,6 +3,7 @@ Usunięcie publikacji TF odom->base_footprint przez gazebo.
 Poprawa nadawania prędkości i danych odometrii
 Dodanie filtru Moving Average do odczytów IMU 
 
+Z https://github.com/Totalq09/omnivelma_navigation:
 Zmiana światów przed odkomentowanie velmawerse/launch/velmaverse.launch
 
 Paczka zawierająca zmodyfikowany model bazy jezdej velmy nazwany "omnivelma".
