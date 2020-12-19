@@ -1,5 +1,9 @@
-Poprawienie odwoływania się do gazebo dla ROS melodic i gazebo 9
+Poprawienie odwoływania się do gazebo dla ROS noetic i gazebo 11
 Usunięcie publikacji TF odom->base_footprint przez gazebo.
+Poprawa nadawania prędkości i danych odometrii
+Dodanie filtru Moving Average do odczytów IMU 
+
+Zmiana światów przed odkomentowanie velmawerse/launch/velmaverse.launch
 
 Paczka zawierająca zmodyfikowany model bazy jezdej velmy nazwany "omnivelma".
 Pierwotnym autorem jest Radosława Świątkiewicza - https://github.com/Antyradek/omnivelma
